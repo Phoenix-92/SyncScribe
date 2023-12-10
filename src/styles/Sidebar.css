@@ -1,0 +1,48 @@
+.add-button-container {
+  font-size: 35px;
+
+  .add-icon {
+    transition: transform 0.3s ease;
+    transform: rotate(0deg);
+  }
+
+  .rotate-icon {
+    transition: transform 0.3s ease;
+    transform: rotate(45deg);
+  }
+
+  .dropdown {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .color {
+      width: 20px;
+      height: 20px;
+      margin: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .red {
+      background-color: #fe9b72;
+    }
+
+    .purple {
+      background-color: #b693fd;
+    }
+
+    .green {
+      background-color: #98fd32;
+    }
+
+    .sky {
+      background-color: #00d4fe;
+    }
+
+    .yellow {
+      background-color: #f0f644;
+    }
+  }
+}
